@@ -1,5 +1,5 @@
 import { ScullyConfig, setPluginConfig, prod } from '@scullyio/scully';
-import { GoogleAnalytics } from '@scullyio/plugins/google-analytics';
+import { GoogleAnalytics } from '@scullyio/scully-plugin-google-analytics';
 import { baseHrefRewrite } from '@scullyio/scully-plugin-base-href-rewrite';
 
 const defaultPostRenderers = ['seoHrefOptimise', baseHrefRewrite];
